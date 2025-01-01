@@ -1,1 +1,6 @@
-console.log("hi")
+// vraiable :
+// 1.Number
+// string
+
+let name = "matt";
+console.log(name);
