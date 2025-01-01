@@ -11,5 +11,6 @@ console.log(name);
 //them cannot start number(nam1)
 // cannot contain a spacee or hyphen (_ -)
 //are case-sensitive
-let firstName = "alina" ;
-let  lastName =  "asrzad";
+ let interestRate =1;
+ interestRate=5;
+ console.log(interestRate)
