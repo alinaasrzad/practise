@@ -38,8 +38,9 @@ console.log(selectedColors.length);
 
 //********************************************* */
 
-function greet(number) { 
-  console.log("hi" + number 
+function greet(name,lastName) { 
+  console.log("hi"+' '+name + '  '+ lastName 
     );
 }
-greet();
+greet('Alina','asrzad');
+ 
