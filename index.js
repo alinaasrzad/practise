@@ -26,12 +26,12 @@
 //     age : 23,
 // lastName : 'asrzad'
 
-// };
+// };  
 // //bracket notation
 // person['name'] = 'sara';
 // //dot notation *
 // person.lastName = 'sam  '
 // console.log(person.name )
 let selectedColors = ['red', 'blue '];
-selectedColors [2] = 3 
-console.log(selectedColors )
+selectedColors [1] = 3 
+console.log(selectedColors.length ,selectedColors)
