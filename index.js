@@ -35,3 +35,13 @@
 let selectedColors = ['red', 'blue '];
 selectedColors [2] = 3 
 console.log(selectedColors.length  )
+
+
+//********************************************* */
+
+
+function greet(){
+    let name = 'alina';
+    console.log('hi' , name  )
+}
+greet();
