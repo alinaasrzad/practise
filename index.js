@@ -27,6 +27,8 @@ let person = {
 lastName : 'asrzad'
 
 };
-person['name'] = 'sara'
+//bracket notation
+person['name'] = 'sara';
+//dot notation *
 person.lastName = 'sam  '
-console.log(person.age  )
+console.log(person.name )
