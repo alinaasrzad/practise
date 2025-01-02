@@ -34,4 +34,4 @@
 // console.log(person.name )
 let selectedColors = ['red', 'blue '];
 selectedColors [1] = 3 
-console.log(selectedColors.length ,selectedColors)
+console.log(selectedColors.length  )
