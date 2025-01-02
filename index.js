@@ -46,5 +46,5 @@ greet("Alina", "asrzad");
 function square(number) {
   return number * number + number-3;
 }
- let number = square(5);
- console.log(number)
+ 
+ console.log(square(3))
