@@ -27,3 +27,5 @@ let person = {
 lastName : 'asrzad'
 
 };
+person.lastName = 'sam  '
+console.log(person)
