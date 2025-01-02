@@ -15,9 +15,10 @@
  interestRate=5;
  console.log(interestRate)
  //primitves
-let name = "alina";
+let name = 'alina';
 let age = 22;
-let isApproved = false; // bolean
+let isApproved = false;
+ // bolean
 let firstname = undefined;
 let selectedColor = null;
 
