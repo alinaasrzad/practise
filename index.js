@@ -32,4 +32,5 @@
 // //dot notation *
 // person.lastName = 'sam  '
 // console.log(person.name )
-let selectedColors = ['red', 'blue'];
+let selectedColors = ['red', 'blue '];
+console.log(selectedColors[0])
