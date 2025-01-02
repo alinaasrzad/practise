@@ -44,6 +44,7 @@ function greet(name, lastName) {
 greet("Alina", "asrzad");
 //***************************** */
 function square(number) {
-  return number * number;
+  return number * number + number-3;
 }
- let number = square(4);
+ let number = square(5);
+ console.log(number)
