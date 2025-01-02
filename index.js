@@ -38,9 +38,12 @@ console.log(selectedColors.length);
 
 //********************************************* */
 
-function greet(name,lastName) { 
-  console.log("hi"+' '+name + '  '+ lastName 
-    );
+function greet(name, lastName) {
+  console.log("hi" + " " + name + "  " + lastName);
 }
-greet('Alina','asrzad');
- 
+greet("Alina", "asrzad");
+//***************************** */
+function square(number) {
+  return number * number;
+}
+ let square(4);
