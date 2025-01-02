@@ -2,8 +2,8 @@
 // 1.Number
 // string
 
-let name = "matt";
-console.log(name);
+// let name = "matt";
+// console.log(name);
 
 // rowls
 // cannot be a reserved keyword 
@@ -14,3 +14,10 @@ console.log(name);
  let interestRate =1;
  interestRate=5;
  console.log(interestRate)
+ //primitves
+let name = "alina";
+let age = 22;
+let isApproved = false; // bolean
+let firstname = undefined;
+let selectedColor = null;
+
