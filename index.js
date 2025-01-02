@@ -27,5 +27,6 @@ let person = {
 lastName : 'asrzad'
 
 };
+person['name'] = 'sara'
 person.lastName = 'sam  '
-console.log(person)
+console.log(person.age  )
