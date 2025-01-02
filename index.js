@@ -46,4 +46,4 @@ greet("Alina", "asrzad");
 function square(number) {
   return number * number;
 }
- let square(4);
+ let number = square(4);
