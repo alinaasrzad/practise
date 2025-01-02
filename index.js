@@ -21,4 +21,9 @@ let isApproved = false;
  // bolean
 let firstname = undefined;
 let selectedColor = null;
+let person = {
+    name : 'alina',
+    age : 23,
+lastName : 'asrzad'
 
+};
