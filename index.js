@@ -38,7 +38,8 @@ console.log(selectedColors.length);
 
 //********************************************* */
 
-function greet() {
-  console.log("hi");
+function greet(number) { 
+  console.log("hi" + number 
+    );
 }
 greet();
