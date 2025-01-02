@@ -33,4 +33,5 @@
 // person.lastName = 'sam  '
 // console.log(person.name )
 let selectedColors = ['red', 'blue '];
-console.log(selectedColors[0])
+selectedColors [4] = 'green'
+console.log(selectedColors )
