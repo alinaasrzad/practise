@@ -33,5 +33,5 @@
 // person.lastName = 'sam  '
 // console.log(person.name )
 let selectedColors = ['red', 'blue '];
-selectedColors [4] = 'green'
+selectedColors [2] = 3 
 console.log(selectedColors )
