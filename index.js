@@ -6,15 +6,15 @@
 // console.log(name);
 
 // rowls
-// cannot be a reserved keyword 
+// cannot be a reserved keyword
 // should be meaningful
 //them cannot start number(nam1)
 // cannot contain a spacee or hyphen (_ -)
 //are case-sensitive
- let interestRate =1;
- interestRate=5;
- console.log(interestRate)
- //primitves
+let interestRate = 1;
+interestRate = 5;
+console.log(interestRate);
+//primitves
 // let name = 'alina';
 // let age = 22;
 // let isApproved = false;
@@ -26,22 +26,19 @@
 //     age : 23,
 // lastName : 'asrzad'
 
-// };  
+// };
 // //bracket notation
 // person['name'] = 'sara';
 // //dot notation *
 // person.lastName = 'sam  '
 // console.log(person.name )
-let selectedColors = ['red', 'blue '];
-selectedColors [2] = 3 
-console.log(selectedColors.length  )
-
+let selectedColors = ["red", "blue "];
+selectedColors[2] = 3;
+console.log(selectedColors.length);
 
 //********************************************* */
 
-
-function greet(){
-    let name = 'alina';
-    console.log('hi' , name  )
+function greet() {
+  console.log("hi");
 }
 greet();
