@@ -47,4 +47,4 @@ function square(number) {
   return number * number + number-3;
 }
  
- console.log(square(3))
+ console.log(square(3));
