@@ -1,0 +1,12 @@
+body{
+    background: #ffdfdf;
+}
+.box{
+    width: 40px;
+    height: 40px;
+    
+}
+.box:hover{
+    transform: scaleY(360deg);
+transition: 3s;
+}
