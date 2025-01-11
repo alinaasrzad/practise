@@ -47,7 +47,7 @@ function square(number) {
   return number * number + number-3;
 }
  
- console.log(square(3));
+ console.log(square(4));
 //  ***           ****          ***         ***       ****      ***
 let x = 6;
 let y =3;
@@ -58,6 +58,11 @@ console.log(x-y);
 console.log(x*y);
 console.log(x%y);
 console.log(x/y);
+console.log(x**y);
+
+
+
+
 
 
 
