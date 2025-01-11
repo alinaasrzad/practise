@@ -44,25 +44,33 @@ function greet(name, lastName) {
 greet("Alina", "asrzad");
 //***************************** */
 function square(number) {
-  return number * number + number-3;
+  return number * number + number - 3;
 }
- 
- console.log(square(4));
+
+console.log(square(4));
 //  ***           ****          ***         ***       ****      ***
 let x = 6;
-let y =3;
+let y = 3;
 
+console.log(x + y);
+console.log(x - y);
+console.log(x * y);
+console.log(x % y);
+console.log(x / y);
+console.log(x ** y);
+//***********************************
+//  */
+// if a customer has more than 100 points
+// they are a 'gold' customer, otherwise
+// they are 'silver' customer
 
-console.log(x+y);
-console.log(x-y);
-console.log(x*y);
-console.log(x%y);
-console.log(x/y);
-console.log(x**y);
+let points =20;
+let type = points > 100 ? 'gold':'silver';
+console.log(type);
 
-
-
-
-
-
+// ***************88          ************
+console.log( false && true)
+console.log( true && true) 
+console.log( true && true)
+console.log( false && true) 
 
