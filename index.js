@@ -48,3 +48,16 @@ function square(number) {
 }
  
  console.log(square(3));
+//  ***           ****          ***         ***       ****      ***
+let x = 6;
+let y =3;
+
+
+console.log(x+y);
+console.log(x-y);
+console.log(x*y);
+console.log(x%y);
+console.log(x/y);
+
+
+
