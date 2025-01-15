@@ -80,7 +80,7 @@ console.log(false|| 2)
 
 // ********************           ***                 *******         ****//
 
-alert("hello")
+// alert("hello")
 
 // ************           *******    
 //              **********
@@ -94,14 +94,18 @@ console.log(" good afternoon")
 else
 console.log("good evening")
 // ******   *****  ****   ****    *****     *****                              ***
- let role = 'guest'
+ let role = 'state'
  switch (role) {
   case "guest":
     console.log("dead")
   break;
- case "guest":
+ case "state":
  console.log("a live")
  break;
   default:
     console.log("unknown");
  }
+//  ***       ***         ***       ***       ***
+for (let i = 0 ; i < 4 ; i++){
+  console.log("hello world", i) 
+}
