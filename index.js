@@ -82,8 +82,10 @@ console.log(false|| 2)
 
 alert("hello")
 
-// ************           *******                 **********
-if (num > 40 ){
+// ************           *******    
+//              **********
+let hour = 11
+if (hour >=6 && hour <12  ){
    
 }
 else if () {
