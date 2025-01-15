@@ -83,3 +83,12 @@ console.log(false|| 2)
 alert("hello")
 
 // ************           *******                 **********
+if (num > 40 ){
+   
+}
+else if () {
+
+}
+else{
+
+}
