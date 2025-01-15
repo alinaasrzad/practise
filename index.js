@@ -106,6 +106,6 @@ console.log("good evening")
     console.log("unknown");
  }
 //  ***       ***         ***       ***       ***
-for (let i = 0 ; i < 4 ; i++){
+for (let i = 1 ; i <= 4 ; i++){
   console.log("hello world", i) 
 }
