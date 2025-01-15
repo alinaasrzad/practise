@@ -91,6 +91,5 @@ if (hour >=6 && hour <12  ){
 else if (hour >12 && hour < 18) {
 console.log(" good afternoon")
 }
-else{
+else
 console.log("good evening")
-}
