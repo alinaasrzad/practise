@@ -93,3 +93,15 @@ console.log(" good afternoon")
 }
 else
 console.log("good evening")
+// ******   *****  ****   ****    *****     *****                              ***
+ let role = 'guest'
+ switch (role) {
+  case "guest":
+    console.log("dead")
+  break;
+ case "guest":
+ console.log("a live")
+ break;
+  default:
+    console.log("unknown");
+ }
