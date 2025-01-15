@@ -109,3 +109,9 @@ console.log("good evening")
 for (let i = 1 ; i <= 4 ; i++){
   console.log("hello world", i) 
 }
+
+// *******        ******      ***
+let i = 0 ;
+while (i <= 5){
+console.log("hello dear",i)
+}
