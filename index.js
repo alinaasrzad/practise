@@ -64,56 +64,58 @@ console.log(x ** y);
 // they are a 'gold' customer, otherwise
 // they are 'silver' customer
 
-let points =20;
-let type = points > 100 ? 'gold':'silver';
+let points = 20;
+let type = points > 100 ? "gold" : "silver";
 console.log(type);
 
 // ***************88          ************
-console.log( false && true)
-console.log( true && true) 
-console.log( true && true)
-console.log( false && true) 
+console.log(false && true);
+console.log(true && true);
+console.log(true && true);
+console.log(false && true);
 
 //***************************** */
-console.log(false|| 2)
-
+console.log(false || 2);
 
 // ********************           ***                 *******         ****//
 
 // alert("hello")
 
-// ************           *******    
+// ************           *******
 //              **********
-let hour = 23
-if (hour >=6 && hour <12  ){
-   console.log("good morning")
-}
-else if (hour >12 && hour < 18) {
-console.log(" good afternoon")
-}
-else
-console.log("good evening")
+let hour = 23;
+if (hour >= 6 && hour < 12) {
+  console.log("good morning");
+} else if (hour > 12 && hour < 18) {
+  console.log(" good afternoon");
+} else console.log("good evening");
 // ******   *****  ****   ****    *****     *****                              ***
- let role = 'state'
- switch (role) {
+let role = "state";
+switch (role) {
   case "guest":
-    console.log("dead")
-  break;
- case "state":
- console.log("a live")
- break;
+    console.log("dead");
+    break;
+  case "state":
+    console.log("a live");
+    break;
   default:
     console.log("unknown");
- }
+}
 //  ***       ***         ***       ***       ***
-for (let i = 1 ; i <= 4 ; i++){
-  console.log("hello world", i) 
+for (let i = 1; i <= 4; i++) {
+  console.log("hello world", i);
 }
 
 // *******        ******      ***
-let i = 0 ;
-while (i <= 5 ){
-  if (i % 2 !== 0)
-console.log(i)
-  i++
-}
+// let i = 0 ;
+// while (i <= 5 ){
+//   if (i % 2 !== 0)
+// console.log(i)
+//   i++
+// }
+// *****          ***         ***         ***
+let i = 9;
+do {
+  if (i % 2 !== 0)  console.log(i);
+  i++;
+} while (i <= 5);
