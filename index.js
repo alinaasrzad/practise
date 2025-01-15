@@ -112,6 +112,6 @@ for (let i = 1 ; i <= 4 ; i++){
 
 // *******        ******      ***
 let i = 0 ;
-while (i <= 5){
+while (i <= 5 ,i++){
 console.log("hello dear",i)
 }
