@@ -144,10 +144,16 @@ function Getnum(num1, num2) {
 Getnum(56, 4);
 
 //**    ***    ***    ****    **** */
-function GetSpeed(a) {
-  if (a < 70) return "OK";
-  else if ((a = 70 + 5)) return "point 1";
-  else if (a > 70) return "you are getting to die please decrease your speed";
+function GetSpeed(speed) {
+  const speedLimit = 70;
+  const kmpoint = 5;
+  if (speed < speedLimit) console.log("OK");
+  else {
+    let points = Math.floor((speed - speedLimit) / kmpoint);
+  }
+  if (points >= 12) {
+    console.log(" licenses suspended ");
+  }
 }
 
-console.log(GetSpeed(120));
+console.log(GetSpeed(560));
