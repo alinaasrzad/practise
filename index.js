@@ -116,19 +116,16 @@ for (let i = 1; i <= 4; i++) {
 // *****          ***         ***         ***
 let i = 0;
 do {
-  if (i % 2 !== 0)  console.log(i);
+  if (i % 2 !== 0) console.log(i);
   i++;
 } while (i <= 5);
 // ********************************************
 
-let r = 5 
+let r = 5;
 do {
-  if ( r % 2 !== 0 )
-    console.log(r);
+  if (r % 2 !== 0) console.log(r);
   i++;
-
-}
-while (i <= 5)
+} while (i <= 5);
 // ***        ***       ***
 // let s = 0;
 // while (s<= 20){
@@ -137,8 +134,20 @@ while (i <= 5)
 //   i++;
 // }
 //****     ***      ***     *** */
-function Getnum (num1 , num2 ){
-   if(num1> num2) console.log(num1)
-    else (num2>num1) ;console.log(num2)
+function Getnum(num1, num2) {
+  if (num1 > num2) {
+    console.log("number 1 " + num1 + "is bigger");
+  } else if (num2 > num1) {
+    console.log("number2 " + num2 + " is bigger");
+  }
 }
-Getnum(4,3)
+Getnum(56, 4);
+
+//**    ***    ***    ****    **** */
+function GetSpeed(a) {
+  if (a < 70) return "OK";
+  else if ((a = 70 + 5)) return "point 1";
+  else if (a > 70) return "you are getting to die please decrease your speed";
+}
+
+console.log(GetSpeed(120));
