@@ -130,3 +130,15 @@ do {
 }
 while (i <= 5)
 // ***        ***       ***
+// let s = 0;
+// while (s<= 20){
+//   if (s === 2) break;
+//   console.log(s);
+//   i++;
+// }
+//****     ***      ***     *** */
+function Getnum (num1 , num2 ){
+   if(num1> num2) console.log(num1)
+    else (num2>num1) ;console.log(num2)
+}
+Getnum(4,3)
