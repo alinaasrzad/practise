@@ -147,13 +147,16 @@ Getnum(56, 4);
 function GetSpeed(speed) {
   const speedLimit = 70;
   const kmpoint = 5;
-  if (speed < speedLimit) console.log("OK");
+  const waypoint = 12;
+  if (speed <= speedLimit) console.log("OK");
   else {
     let points = Math.floor((speed - speedLimit) / kmpoint);
-  }
-  if (points >= 12) {
-    console.log(" licenses suspended ");
+    if (points >= waypoint) console.log(" licenses suspended ");
+    else console.log("POINTS IS " + points);
   }
 }
 
-console.log(GetSpeed(560));
+GetSpeed(97);
+///***          ****           */
+//factory function
+
