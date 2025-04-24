@@ -159,4 +159,24 @@ function GetSpeed(speed) {
 GetSpeed(97);
 ///***          ****           */
 //factory function
+function createCircle(radius) {
+  return {
+    radius,
+    draw() {
+      console.log("draw");
+    },
+  };
+}
+const circle1 = createCircle(3);
+console.log(circle1);
 
+// constructor function
+
+function Circle(radius) {
+  this.radius = this.radius;
+  this.draw = function () {
+    console.log('draw');
+  };
+}
+const Crcle =  new Circle(2);
+console.log(Crcle);
