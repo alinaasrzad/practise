@@ -180,3 +180,12 @@ function Circle(radius) {
 }
 const Crcle =  new Circle(2);
 console.log(Crcle);
+
+//ARRAYS
+let numbers = [1,2,3,4,5,6,7,8,9,10];
+//first
+numbers.unshift(1,2)
+numbers.splice(1,3,'fb')
+numbers.push(3)
+numbers.indexOf(2,4)
+console.log(numbers)
